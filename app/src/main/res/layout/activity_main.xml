@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:text="Soru Metni"/>
+
+    <RadioGroup
+        android:id="@+id/optionsRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioOptionA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A Şıkkı"/>
+
+        <RadioButton
+            android:id="@+id/radioOptionB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B Şıkkı"/>
+
+        <RadioButton
+            android:id="@+id/radioOptionC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="C Şıkkı"/>
+
+        <RadioButton
+            android:id="@+id/radioOptionD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="D Şıkkı"/>
+
+        <RadioButton
+            android:id="@+id/radioOptionE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="E Şıkkı"/>
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/answerButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cevapla"/>
+
+        <Button
+            android:id="@+id/randomQuestionButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Rastgele Soru"/>
+
+        <Button
+            android:id="@+id/editQuestionsButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Soruları Düzenle"/>
+    </LinearLayout>
+</LinearLayout>
